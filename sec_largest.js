@@ -1,7 +1,8 @@
-var arr=[1,5,9,7,3,9,8,4,6,6,2,10,11,12,10]
+var arr=[1,5,9,7,3,9,8,4,6,6,2,10,11,12,12,10]
 var array=arr.sort((a,b)=>b-a)
+const myArray = Array.from(new Set(array));
 
-console.log(array[1])
+console.log(myArray[1])
 
 
 // var sortedArray=arr.sort()
